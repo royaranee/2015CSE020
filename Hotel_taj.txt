@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<head>
+
+<style>
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.move{
+text-align: right;
+color:blue;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #fff232;
+  text-align: left;
+  padding: 12px 14px;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+
+
+
+<head>
+<body>
+
+
+
+<header>
+
+<h2>HOTEL TAJ</h2>
+
+</header>
+
+
+
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#">Hotels</a>
+  <a href="#">Flights</a>
+  <a href="#">Holidays</a>
+</div>
+
+
+
+<nav>
+</nav>
+
+<section>
+<nav>
+<div class="tab">
+	<button class="tablinks">Overview</button>
+	<button class="tablinks">Facilities</button>
+	<button class="tablinks">Map</button>
+	<button class="tablinks">Photos</button>
+	
+</div>
+
+</nav>
+<marquee> Welcome to Taj 
+<p> Hey there!! We are providing world class experience and comfort. Check our offers and it's worth giving a try. So no need to regret ,have a stay and experience the best</p>
+
+</section>
+
+<article>
+</article>
+
+<aside class="move">
+<form>
+<h3> Booking Request Form</h3>
+Date:<br>
+<input="text" id="date">
+<br>
+
+Nights:<br>
+<input="text" id="night">
+<br>
+
+Room:<br>
+<input="numbers" id="room">
+<br>
+
+Adults:<br>
+<input="text" id="adults">
+<br>
+
+Children:<br>
+<input="text" id="childate">
+<br>
+</form>
+</aside>
+
+
+
+<footer>
+<iframes src="h1.jpg"></iframes>
+<iframes src="h2.jpg"></iframes>
+<iframes src="h3.jpg"></iframes>
+</footer>
+
+</body>
+</html>
+
